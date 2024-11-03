@@ -1,0 +1,10 @@
+f1 = open("qwerty.txt", "w")
+f1.write("Salom Qish. Bugun havo iliq. Ertaga qor yogadi")
+f1.close()
+f1 = open("qwerty.txt", "r")
+sozlar = f1.read()
+ls = []
+ls = sozlar.split()
+print(ls[-1], end=" ")
+print(ls[-1])
+f1.close()
